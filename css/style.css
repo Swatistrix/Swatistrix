@@ -1,0 +1,341 @@
+
+/***********default-style******************/
+
+*{box-sizing: border-box;}
+img{width: 100%;}
+body{font-family: 'rbno3.1';margin: 0 auto; padding: 0;}
+.container{max-width: 1170px;margin: 0 auto; padding: 0 15px;width: 100%;}
+.container-fluid{max-width:1800px; padding: 0 30px; width: 100%; margin: 0 auto; }
+a{text-decoration: none; color: red;}
+ul {list-style: none; padding: 0;}
+h1{font-size: 65px;}
+h2{font-size: 50px;}
+h3{font-size: 42px;}
+h4{font-size: 30px;}
+h5{font-size: 25px;}
+h6{font-size: 18px;}
+h1,h2,h3,h4,h5,h6{margin-top:0px ; line-height: 1.4em; margin-bottom: 0.8em;}
+
+
+
+/*************************************outer-head start here***************************************/
+
+
+
+.outer-head{background-color: #27235e; padding: 25px 0px;}
+.outer-sec{display: flex; justify-content: space-between;align-items: center;}
+/*icon with text*/
+.location h4{color: #25aae2;font-size: 14px;font-weight: lighter;;margin: 0; }
+.location img {width: 15px;margin-right: 2px;}
+.location { display: block ruby;}
+
+/*************************************outer-head ends  here***************************************/
+/*************************************header ends  here***************************************/
+
+.header {padding: 1em 0em;}
+.head-sec{display: flex; justify-content: space-between;align-items: center;}
+.head-soical h4 {font-size: 18px;color: #27235e; font-weight: 600; margin:0px;}
+.head-contact h5 {font-size: 12px;color: #25aae2; margin-bottom: 2px;text-align: end;}
+.head-contact h4 {font-size: 22px;color: #27235e;margin: 0;}
+.head-soical{display: block ruby; align-items: center;}
+.head-soical i {color: #25aae2;margin: 0px 7px;font-size: 18px;}
+.head-soical i:hover{color: #27235e; transition: all 0.5s;}
+.head-contact img {width: 18px;margin-right: 8px;}
+.head-contact-hide{display: none;}
+.head-contact-hide img{width: 20px;}
+.head-logo-hide{display: none;}
+.head-soical-hide i{color: #25aae2;margin: 0px 7px;font-size: 23px;}
+.head-soical-hide{display: none;}
+
+
+/*************************************header ends  here***************************************/
+/*************************************banner starts here***************************************/
+
+.banner{background-image: url(..//images/service-img.jpg); background-repeat: no-repeat; background-size: cover;
+        background-position: center;padding: 6em 0em;object-fit: cover;height: 528px;}
+.banner-sec{display: flex;justify-content: space-between;}
+.banner-1 a {margin-bottom: 0;color: #fff;font-size: 22px;font-weight: 501;line-height: 53px;}
+.banner-text h1 {font-size: 38px;font-weight: 501; color: #fff;line-height: 56px;}
+.banner-text b {color: #fff;font-size: 63px;font-weight: 900;}
+.banner-form h3 {font-size: 29px;color: #fff;margin-bottom: 22px;text-align: center;}
+.banner-form {background-color: #27235e;border: 2px solid #fff;padding: 3em;}
+.banner-form input { color: black;font-size: 14px;padding: 18px 20px; width: 100%;margin-bottom: 14px;border: none;background-color: #fff;}
+.banner-form input[type="submit"]{ color: #fff;font-size: 14px;padding: 14px 20px; width: 100%;margin: 11px 0;border: none;background-color: #25aae2; 
+  font-weight:600; letter-spacing: 1px;}
+.banner-form select {color: #5d5d5d;font-size: 14px;padding: 13px 20px; width: 100%;margin-bottom: 12px;border: none;background-color: #fff; }
+.banner-form select:hover{background-color: #25aae2;}
+.banner-form input:hover{background-color: #25aae2;}
+.banner-form hr { border: 4px solid #25aae2;width: 8%; border-radius: 40px;}
+.form-sec { padding-top: 30px;}
+.banner-1 {display: block ruby;}
+.banner-form input[type="submit"]:hover{background-color: #000; color: #fff; transition: all 0.5s;}
+.banner-form {width: 45%;}
+.banner-1 img { width: 25px;margin-right: 16px;}
+
+
+
+
+
+/*************************************banner ends here***************************************/
+/************************************headshots starts here******************************/
+
+.headshots{background-image: url(..//images/wave-image.png); background-repeat: no-repeat; background-size: cover;
+    object-fit: cover;height: 1000px;width: 100%;margin-top: -36px;background-position:top;padding-bottom: 12em;}
+.headhots-sec {display: flex; justify-content: space-between;padding-top:15em;}
+.headshots-1 img {object-fit: cover;width: 100%;height: 500px;}
+.headshots-1 {max-width: 48%;}
+.shot-text {text-align: center;}
+.shot-text h3 {font-size: 25px;color: #27235e;font-weight: 900; margin-bottom: 0px;}
+.shot-text h5 {font-size: 14px;color: #25aae2;margin: 15px 0;}
+.shot-text i:hover{background-color: #27235e; color: #fff; transition: all 0.5s;}
+.shot-text p {color: #999;font-size: 16px;margin: 8px 0px;}
+
+.shot-text i{color: #fff; font-size: 20px;  background: #166a8e;padding: 11px;border-radius: 100%;
+  object-fit: cover;height: 40px;width: 40px;text-align: center;margin-right: 15px;}
+
+
+
+
+/************************************headshots ends here******************************/
+/************************************service starts  here******************************/
+
+.service{background-image: url(..//images/service-img.jpg); background-repeat: no-repeat;
+      background-size: cover; padding-top: 6em;padding-bottom: 11em;}
+.ser-head{text-align: center;}
+.ser-head h4 {font-size: 18px;font-weight: 600;color: #25aae2; margin: 0;}
+.ser-head h2 {font-size: 36px;font-weight: 900; color: #fff;margin-bottom: 51px;}
+
+
+
+
+.slider {text-align: center;position: absolute;top:0; left: 0;width: 100%;height: 100%;}
+.slick-arrow {color: #5d5d55; background: none;font-size: 0;border: none;width: 38px;height: 38px;position: absolute;top: 112%;
+     transform: translateY(-50%);z-index: 1;background-size: 30px;background-repeat: no-repeat;background-position: center; background-size: 22px;}
+button.slick-prev {background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23fff' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15.75 19.5L8.25 12l7.5-7.5' /%3E%3C/svg%3E%0A");
+  left: 46%;color: red;border: 2px solid #fff; border-radius: 30px; cursor: pointer;}
+button.slick-next{background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='1.5' stroke='%23fff' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M8.25 4.5l7.5 7.5-7.5 7.5' /%3E%3C/svg%3E%0A"); 
+  right: 46%; border: 2px solid #fff; border-radius: 30px;cursor: pointer;}
+.ser-text {background-color: #fff;padding: 2em;border-radius: 28px;text-align: center;position: relative;top: -29px; width: 88%; margin: 0 auto; object-fit: cover;
+            height: 198px; cursor: pointer;}
+.ser-1 {width: 25%;padding: 0 15px; text-align: center;}
+.ser-text h4 {font-size: 17px;color: #27235e;margin-bottom: 3px; font-weight: 600;}
+.ser-text p {font-size: 12px; color: #999999; margin: 0; line-height: 20px; font-weight:600;}
+.ser-text img {height: 33px;width: 33px; margin: 0 auto; border-radius: 0px;margin-bottom: 12px;}
+.slider-img{border-radius: 25px;}
+.slick-arrow:hover{background-color: #25aae2; color: #fff; transition: all 0.5s;}
+
+
+
+
+ 
+/************************************service ends here******************************/
+/************************************section starts here******************************/
+
+.section {padding: 6em 0em;}
+.section-1 img { height: 61px;width: 54px;margin-bottom: 14px;}
+.section-div {display: flex;justify-content: space-between;align-items: center;flex-wrap: nowrap;text-align: center;}
+.section-1{background: #fff;box-shadow: -2px 2px 9px -6px #5d5d55;width: 32%;padding: 4em; cursor: pointer;}
+.section-1:hover{transform: scale(1.1);transition: 1s ease;}
+.section b {font-size: 25px;color: #27235e; font-weight: 900;}
+.section h4 {font-size: 25px;color: #27235e;font-weight: 400;line-height: 30px;margin-bottom: 6px;}
+.section p { color: #999;font-size: 14px; line-height: 22px; font-weight:501;}
+
+/************************************section ends here******************************/
+/************************************quality starts  here******************************/
+
+.quality{background-image: url(..//images/service-img.jpg); padding: 6em 0em; background-repeat: no-repeat; background-size: cover;}
+.quality-sec {display: flex; justify-content: space-between;}
+.quality-img { width: 49%;padding: 0 25px;}
+.quality-text { width: 49%;}
+.quality-btn a{font-size: 12px;color: #fff;padding: 13px 30px;background: #25aae2; font-weight:600}
+.quality-text p{color: #fff; font-size: 14px; line-height: 20px;}
+.quality-text h3{color: #fff; font-size: 40px;line-height: 40px;font-weight: 600;}
+.quality-text h4{color: #25aae2; font-size: 16px; font-weight: 501;}
+.quality-btn {padding-top: 60px;}
+.quality-btn a:hover{background-color: #000; color: #fff; transition: all 0.5s;}
+
+
+/************************************quality ends here******************************/
+/************************************call-section starts here******************************/
+
+
+
+.call-section{padding: 6em 0em;}
+.call-text {text-align: center;}
+.call-text b{color: #27235e; font-size: 42px; font-weight: 900;}
+.call-text h3{color: #27235e; font-size: 38px; font-weight: 500; line-height: 50px; margin-bottom: 20px;}
+.call-text h4 {color: #999;font-weight: 500;font-size: 17px;}
+.call-text a {font-size: 31px;font-weight: 400;color: #25aae2; font-weight:900;}
+.fa-solid.fa-phone-volume {font-size: 34px;color: #25aae2;transform: rotate(-47deg);}
+
+/************************************call-section ends here******************************/
+/************************************block  starts here******************************/
+
+.block {margin-bottom: -7em;}
+.block-sec {display: flex;justify-content: space-between;}
+.block-1 {background: #fff;border-radius: 30px;padding: 2em;text-align: center;border: 4px solid #27235e;width: 31%;cursor: pointer;}
+.block-1 h4 {font-size: 15px; color: #25aae2; font-weight: 400;}
+.block-1 i {color: #25aae2;margin-bottom: 12px;  font-size: 30px;}
+.block-1 h3 {font-size: 19px; color: #27235e;margin-bottom: 4px;}
+.block-1 i:hover{color: #27235e; transition: all 0.5s;}
+.block-1 img {width: 20px;}
+
+
+
+
+/************************************block  ends here******************************/
+/************************************footer starts here******************************/
+
+.footer{background-image: url(..//images/wave-image.png); background-repeat: no-repeat; background-size: cover; padding: 5em 0em;}
+.foot-sec img {width: 10%;}
+.foot-sec {text-align: center; padding-top: 7em;}
+.foot-icon i {font-size: 19px; margin-right: 17px;color: #27235e;}
+.foot-icon i:hover{color: #25aae2; transition: all 0.5s;}
+.foot-sec p {color: #25aae2;font-size: 15px;margin: 25px;}
+.foot-sec hr{color: #fcfcfc;}
+.foot-icon {padding-top: 18px;}
+
+
+/************************************footer ends here******************************/
+/********************************copyright starts  here**********************************/
+
+.copyright{background-color: #27235e; padding: 10px 0px;}
+.copy-text p{color: #25aae2; font-size: 14px; text-align: center;}
+
+/****************************************copyright ends here********************************/
+
+
+
+/****************************************page-responsive start here********************************/
+
+@media all and (max-width:1030px){
+      
+.banner-text b {font-size: 56px;}
+.ser-text h4{font-size: 20px;}
+.ser-text p{font-size: 14px;}
+.ser-1 img{border-radius: 45px;}
+
+
+}
+
+@media all and (max-width:958px){
+      
+.banner-text b {font-size: 48px;}
+.ser-text h4{font-size: 15px;}
+.section b { font-size: 22px;}
+.ser-text p{font-size: 10px;}
+.quality-text h3{font-size: 35px;}
+  
+}
+
+
+@media all and (max-width: 898px){
+ 
+.banner-form h3{font-size: 27px;}
+.section b { font-size: 20px;}
+
+}
+
+
+@media all and (max-width: 877px){
+ 
+.banner-text b {font-size: 45px;}
+.section b { font-size: 20px;}
+  
+}
+
+@media all and (max-width: 826px){
+ 
+  .banner-text b {font-size: 40px;}
+  .section b { font-size: 20px;}
+    
+}
+
+
+
+@media all and (max-width:768px){
+
+  .banner-sec{ display: block;}
+  .banner{padding: 8em 0em;height: 1180px;}
+  .banner-text{padding-bottom: 3em;}
+  .headhots-sec{display: block; padding-top:24em ;}
+  .headshots-1{max-width: 100%; margin: 0 auto; padding-bottom: 3em;}
+  .headshots-1 img{height: 728px;}
+  .headshots{height: 2274px;}
+  .slick-initialized .slick-slide{width: 100%;}
+  .slick-list{width: 100%;}
+  .section-div{flex-wrap: wrap; display: block;}
+  .section-1{width: 100%; margin: 0 auto;margin: 7px 0px;}
+  .quality-sec{display: block;}
+  .quality-img{width: 100%; padding-bottom: 20px;}
+  .quality-text{width: 100%; padding: 0 25px;}
+  .block-sec{display: block;}
+  .block-1{width: 100%; margin-bottom:20px ;}
+  .block{margin-bottom: 0px;}
+  .ser-1{width: 100%;}
+  button.slick-prev{left: 41%;}
+  .service{padding-top: 6em;}
+  .slick-arrow{top: 112%;}
+  .ser-text h4{font-size: 21px;}
+  .ser-text p{font-size: 16px;}
+  .ser-text img { max-width: 31px; object-fit: cover;margin: 0 auto;height: 49px;}
+  .ser-1 img{border-radius: 66px;}
+  .banner-form h3{text-align: center;}
+  .banner-text b {font-size: 55px;}
+  .banner-form{width: 100%;}
+  .call-text b {font-size: 41px;}
+
+
+} 
+
+
+@media all and (max-width:600px){
+  .location i {font-size: 17px;margin-right: 6px;}
+  .location a{font-size: 12px;}
+  .head-soical{max-width: 45%;margin: 0 auto;padding: 10px 0px;}
+  .head-logo{max-width: 20%; margin: 0 auto;}
+  .head-contact{max-width: 33%; margin: 0 auto;padding-top: 29px;}
+  button.slick-prev {left: 38%;}
+  .section-1{margin: 30px 0px;}
+  .call-text h3 {font-size: 28px;}
+  .call-text b {font-size: 28px;}
+  .headhots-sec {display: block;}
+  .foot-sec{padding-top: 4em;} 
+
+
+}
+
+@media all and (max-width:990px) {
+.location h4{display: none;}
+.head-logo{display: none;}
+.head-contact-hide{display: block;}
+.head-contact{display: none;}
+.head-soical{display: none;}
+.location img{width: 30px;}
+.outer-sec{justify-content: center;}
+.location{padding: 0 25px;}
+.head-logo-hide {display: block;width: 10%;}
+.head-soical-hide {width: 86%;text-align: end; display: block;}
+
+
+}
+
+
+@media all and (max-width:840px){
+
+.banner-form h3 {font-size: 23px;}
+button.slick-prev{left: 43%;}
+.section-div{display: block;}
+.section-1{width: 100%; margin-bottom: 25px;}
+.quality-text h3 {font-size: 33px;}
+.quality-text p{font-size: 12px;}
+.quality-btn {padding-top: 25px;}
+.block-1 h4 {font-size: 12px;}
+.block-1 h3 {font-size: 17px;}
+
+
+}
+
+/****************************************page-responsive ends here********************************/
+
+
